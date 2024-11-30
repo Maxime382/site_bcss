@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style acheter.css">
+    <title>Bike Club Saint-Sorlin</title>
+    <link rel="shortcut icon" href="image/logo site web Saint-Sorlin.png">
+</head>
+<body>
+        <div class="form">
+            <form action="">
+               <input type="email" required="required" id="champ1" name="champ1" placeholder="merci d'entrer votre e-mail" class="email">
+               <button><a href="Contact copy.html"  class="retour">Retour</a></button>
+               <button type="submit"><a href="acheter2.html" required="required" class="Continuer">Continuer</a></button>
+               <div class="text">
+               <h2>s'identifier</h2>
+               <h4>merci de bien vouloir s'identifier pour la suite</h4>
+            </div>
+            <div class="text2">
+                En continuant, vous acceptez les conditions 
+                <br> d'utilisation et de vente du site.
+                 Consultez notre <br>
+                 déclaration de confidentialité, notre politique relative <br>
+                 aux cookies ainsi que notre politique relative aux <br>
+                  publicités ciblées par centres d’intérêts.
+            </div>
+            </form>
+        </div>
+        </nav>
+    </header>
+
+    <script>
+        document.getElementById('form').addEventListener('submit', function(event) {
+          const champ1 = document.getElementById('champ1').value;
+
+          if (!champ1 && !champ2) {
+            event.preventDefault();  // Empêche la soumission du formulaire
+            alert('Champ 2 est requis lorsque Champ 1 n\'est pas rempli.');
+          }
+        });
+      </script>
+    </html>

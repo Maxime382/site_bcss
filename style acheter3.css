@@ -1,0 +1,131 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.retour{
+    height: 25px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.email{
+    height: 45px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.text{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.Continuer{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 78%;
+    left: 42%;
+    color: #121212;
+    border-radius: 20px;
+    background-color: rgba(255, 221, 0, 0.947);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.Prenom{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+
+.textprenom{
+    position: absolute;
+    top: 28%;
+    left: 39%;
+}
+
+.Numérodetéléphone{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 38%;
+    left: 39%;
+}
+
+.textNumérodetéléphone{
+    position: absolute;
+    top: 36%;
+    left: 39%;
+}
+
+.adresse{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 46%;
+    left: 39%;
+}
+
+.textadresse{
+    position: absolute;
+    top: 44%;
+    left: 39%;
+}
+
+.codepostale{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 54%;
+    left: 39%;
+}
+
+.textcodepostale{
+    position: absolute;
+    top: 52%;
+    left: 39%;
+}
+
+.Ville{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    top: 62%;
+    left: 39%;
+}
+
+.textVille{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+}
+
+.radio1{
+    position: absolute;
+    top: 68%;
+    left: 39%;
+}
+
+.radio2{
+    position: absolute;
+    top: 72%;
+    left: 39%;
+}

@@ -1,0 +1,199 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .overlay represente le body */
+
+header {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+main{
+    height: 90%;
+    width: 100%;
+    /* centrer une boite  */
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15;
+    /* l'ecart des ecriture de la boite par rapport a la boite */
+    padding: 30px;
+}
+
+
+
+/* flexbox sert a repartir équitablement des élément sur la page */
+
+/* partie grid */
+
+
+.gridform{
+    position: absolute;
+    width: 10%;
+    height: 10px;
+    bottom: 40%;
+
+}
+/* pas de% sur les hauteur height */
+.gridimg{
+    left: 3%;
+    top: 8%;
+    position: absolute;
+   width: 100%;
+}
+.gridtext{
+    position: absolute;
+   grid-area: img text prix form;
+    padding-left: 0px;
+    top: 5%;
+    left: 40%;
+    max-width: 60%;
+}
+
+.gridprix{
+    position: absolute;
+    left: 35%;
+   bottom: 25%;
+   color: #121212;
+}
+
+.quantité{
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    top: 75px;
+    left: 308%;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+}
+
+.acheter{
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 85px;
+    left: 408%;
+    color: #121212;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 0, 0.729);
+    font-weight: 600;
+}
+
+.retour{
+    top: -4950%;
+    left: 30%;
+    height: 25px;
+    width: 60px;
+    position: absolute;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+    font-size: 0.9rem;
+   
+}
+
+.Ajoutéaupanier{
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 130px;
+    left: 408%;
+    color: #121212;
+    border-radius: 30px;
+    background-color: rgba(255, 140, 0, 0.729);
+    font-weight: 600;
+}
+
+
+nav .logo {
+    width: 170px;
+    border-radius: 20px;
+}
+nav .menu-icon {
+    width: 60px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color .3s;
+}
+nav ul li a:hover {
+    color: #2eb0f0;
+}
+
+.text {
+    padding: 70px 0;
+    color: #fff;
+    min-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text h1 {
+    font-size: 75px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-block-end: 2rem;
+}
+
+.text a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: 1px solid #2eb0f0;
+    color: #2eb0f0;
+    padding: 10px 20px;
+    margin-right: 30px;
+    
+}
+
+.text a.Inscriptions{
+    color: #121212;
+    font-weight: 600;
+    box-shadow: 0px 0px 15px 5px #2eaff06c;
+}
+
+.text a.Contact{
+    color: #121212;
+    background-color: #2eb0f0;
+    font-weight: 600;
+}
+.footer {
+    background: #2eb0f0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.text a.Inscriptions:hover {
+    background: #2eaff06c;
+    color: rgba(255, 255, 255, 0.779);
+}

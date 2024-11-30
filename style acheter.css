@@ -1,0 +1,56 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* patie achat */
+.retour{
+    height: 25px;
+    width: 60px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.email{
+    height: 45px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #121212;
+    border-radius: 5px;
+    background-color: #d2c1c176;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.text{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.Continuer{
+    height: 25px;
+    width: 250px;
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    color: #121212;
+    border-radius: 20px;
+    background-color: rgba(255, 221, 0, 0.947);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.text2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
